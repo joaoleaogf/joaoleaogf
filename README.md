@@ -2,7 +2,7 @@
 
 # 👋 Olá! Eu sou João Leão
 
-### 🌐 Desenvolvedor Full Stack | 🗺️ Especialista em Geoprocessamento | 📊 Engenheiro de Dados
+### 🌐 Backend & Data Developer | 🗺️ Dados Geoespaciais | 📊 ETL & APIs
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.joaoleao.fun/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-le%C3%A3o-630a94170/)
@@ -11,7 +11,7 @@
 
 ---
 
-### 🌟 [Visite meu Portfólio Interativo](https://www.joaoleao.fun/) 🌟
+### 🌟 [Visite meu Portfólio](https://www.joaoleao.fun/) 🌟
 
 </div>
 
@@ -21,10 +21,15 @@
 
 ```typescript
 const joao = {
-  localização: "Itajubá, MG 🇧🇷",
-  foco: ["ETL", "Geoprocessamento", "Backend", "Análise Espacial"],
-  atualmente: "Transformando dados em insights acionáveis",
-  missão: "Conectar tecnologia e geografia para resolver problemas reais",
+  localizacao: "Itajubá, MG 🇧🇷",
+  foco: ["Backend", "ETL", "APIs", "Dados Geoespaciais"],
+  experiencia: [
+    "Desenvolvimento de pipelines de dados (ETL)",
+    "Manipulação de dados geoespaciais com PostGIS",
+    "Integração de sistemas via APIs",
+    "Processamento e organização de grandes volumes de dados"
+  ],
+  atualmente: "Trabalhando com dados e backend em problemas reais",
   portfolio: "https://www.joaoleao.fun/"
 };
 ```
@@ -85,11 +90,11 @@ const joao = {
 ## 🚀 Projetos em Destaque
 
 <details open>
-<summary><b>🔵 ETL & Geoprocessamento</b></summary>
+<summary><b>🔵 ETL & Dados Geoespaciais</b></summary>
 <br>
 
 ### 🩺 [ETL GeoSaúde Itajubá](https://github.com/joaoleaogf/etl-geosaude-itajuba)
-> Pipeline ETL robusto para dados de saúde com geocodificação avançada e análise espacial
+> Pipeline ETL para processamento de dados de saúde com componente geoespacial
 
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -97,36 +102,36 @@ const joao = {
 ![PostGIS](https://img.shields.io/badge/-PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white)
 
 **Destaques:**
-- ✅ Geocodificação inteligente com múltiplas estratégias
-- ✅ Normalização automática de endereços
-- ✅ Integração completa com QGIS
+- ✅ Estruturação de pipeline de ingestão e transformação de dados
+- ✅ Geocodificação e normalização de dados
+- ✅ Integração com banco PostGIS
 
 ---
 
 ### 🚗 [FIPE ETL](https://github.com/joaoleaogf/fipe-etl)
-> Sistema escalável para processamento da Tabela FIPE com orquestração completa
+> Pipeline para processamento e organização da Tabela FIPE
 
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 
 **Destaques:**
-- ✅ Arquitetura modular e escalável
-- ✅ Processamento incremental e reprocessamento
-- ✅ Dockerizado para fácil deploy
+- ✅ Fluxo ETL com processamento incremental
+- ✅ Estruturação de dados para consultas eficientes
+- ✅ Dockerização da aplicação
 
 ---
 
 ### 🦠 [Análise Descritiva – Febre Amarela](https://github.com/joaoleaogf/analise-descritiva-febre-amarela)
-> Análise epidemiológica com visualização espacial de dados de saúde
+> Análise de dados epidemiológicos com foco espacial
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
 **Destaques:**
-- ✅ Análise estatística descritiva
-- ✅ Visualização de padrões espaciais
-- ✅ Processamento de dados epidemiológicos
+- ✅ Tratamento e análise de dados com Python
+- ✅ Identificação de padrões espaciais
+- ✅ Visualização de dados
 
 </details>
 
@@ -135,15 +140,15 @@ const joao = {
 <br>
 
 ### 🏠 [Otimização de Rotas - Recadastramento Imobiliário](https://github.com/joaoleaogf/otimizacao-rotas-recadastramento-imobiliario)
-> Solução baseada em teoria dos grafos para otimizar rotas de campo
+> Projeto de otimização usando grafos para apoiar roteirização
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![NetworkX](https://img.shields.io/badge/-NetworkX-FFD43B?style=flat-square&logo=python&logoColor=blue)
 
 **Destaques:**
-- ✅ Algoritmos de grafos para roteirização
-- ✅ Minimização de deslocamentos
-- ✅ Visualização de rotas otimizadas
+- ✅ Implementação de algoritmos de roteirização
+- ✅ Redução de deslocamentos em cenários simulados
+- ✅ Visualização das rotas
 
 </details>
 
@@ -165,7 +170,7 @@ const joao = {
 ---
 
 ### ♻️ [Sistema de Coleta Seletiva](https://github.com/joaoleaogf/Coleta-seletiva)
-> Plataforma completa para gestão de coleta seletiva urbana
+> Plataforma para gestão de coleta seletiva urbana
 
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
@@ -173,8 +178,8 @@ const joao = {
 
 **Destaques:**
 - ✅ Gerenciamento de rotas de coleta
-- ✅ API RESTful completa
-- ✅ Interface moderna com Vue.js
+- ✅ API REST
+- ✅ Interface com Vue.js
 
 </details>
 
@@ -183,7 +188,7 @@ const joao = {
 <br>
 
 ### 🌊 [Node.js Streams](https://github.com/joaoleaogf/NodeJs-Streams)
-> Exploração profunda de streams para processamento eficiente de grandes volumes
+> Estudo de streams para processamento eficiente de grandes volumes
 
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
@@ -192,7 +197,7 @@ const joao = {
 ---
 
 ### 🧱 [MVC – Psycopg2 vs SQLAlchemy](https://github.com/joaoleaogf/MVC-psycopg2-vs-SqlAlchemy)
-> Comparativo de ORMs em Python com arquitetura MVC
+> Comparativo de abordagens de acesso a dados em Python com arquitetura MVC
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
@@ -201,35 +206,18 @@ const joao = {
 
 ---
 
-## 💡 Minhas Especialidades
+## 💡 Áreas de Atuação
 
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#1f6feb', 'primaryTextColor':'#fff', 'primaryBorderColor':'#1f6feb', 'lineColor':'#58a6ff', 'secondaryColor':'#388bfd', 'tertiaryColor':'#58a6ff', 'textColor':'#e6edf3', 'fontSize':'16px'}}}%%
-mindmap
-  root((João Leão))
-    ETL & Pipelines
-      Node.js
-      Python
-      Orquestração
-    Geoprocessamento
-      PostGIS
-      QGIS
-      Análise Espacial
-    Backend
-      APIs RESTful
-      Microserviços
-      Arquitetura
-    Frontend
-      Angular
-      Vue.js
-      Interfaces Modernas
-```
+- **ETL & Pipelines:** Node.js, Python, processamento de dados
+- **Dados Geoespaciais:** PostGIS, QGIS, análise espacial
+- **Backend:** APIs REST, integração de sistemas, arquitetura
+- **Frontend:** Angular, Vue.js, interfaces web
 
 ---
 
 <div align="center">
 
-### 💬 "Dados sem localização são apenas números. Com geografia, eles contam histórias." 🗺️
+### 💬 Transformando dados em aplicações e soluções para problemas reais.
 
 ---
 
