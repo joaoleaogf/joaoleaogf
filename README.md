@@ -58,6 +58,14 @@ result set (4 rows):
 
 > o resto do dataset tá no [portfólio](https://www.joaoleao.fun/) e aqui nos repos 👇
 
+### e todo dev evolui um commit de cada vez
+
+<div align="center">
+
+![dino correndo, pulando cactos e evoluindo de cinza para âmbar a cada obstáculo](https://raw.githubusercontent.com/joaoleaogf/joaoleaogf/main/dino.svg)
+
+</div>
+
 <div align="center">
 
 ![stats do github](https://raw.githubusercontent.com/joaoleaogf/joaoleaogf/main/github-metrics.svg)
