@@ -1,237 +1,65 @@
 <div align="center">
 
-# 👋 Olá! Eu sou João Leão
+# oi, eu sou o João 👋
 
-### 🌐 Backend & Data Developer | 🗺️ Dados Geoespaciais | 📊 ETL & APIs
+**Backend · pipelines de dados · mapas**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.joaoleao.fun/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-le%C3%A3o-630a94170/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaoleaogf@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joaoleaogf)
+*Gosto mesmo é da parte chata: deixar o dado limpo, a query rápida e o sistema de pé em produção.*
 
----
-
-### 🌟 [Visite meu Portfólio](https://www.joaoleao.fun/) 🌟
+[![Portfólio](https://img.shields.io/badge/portfólio-joaoleao.fun-E0A458?style=flat-square&logo=safari&logoColor=1a1a1a)](https://www.joaoleao.fun/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-João_Leão-E0A458?style=flat-square&logo=linkedin&logoColor=1a1a1a)](https://www.linkedin.com/in/jo%C3%A3o-le%C3%A3o-630a94170/)
+[![Email](https://img.shields.io/badge/email-joaoleao.gf@gmail.com-E0A458?style=flat-square&logo=maildotru&logoColor=1a1a1a)](mailto:joaoleao.gf@gmail.com)
 
 </div>
 
 ---
 
-## 🎯 O que eu faço?
+Dev em **Itajubá-MG**. De dia, trabalho na **DDMX** com ETL, APIs REST e dashboards de BI (Elasticsearch + Highcharts) — basicamente pegar dado bagunçado de muitos lugares e fazer virar algo que dá pra confiar e abrir rápido.
 
-```typescript
-const joao = {
-  localizacao: "Itajubá, MG 🇧🇷",
-  foco: ["Backend", "ETL", "APIs", "Dados Geoespaciais"],
-  experiencia: [
-    "Desenvolvimento de pipelines de dados (ETL)",
-    "Manipulação de dados geoespaciais com PostGIS",
-    "Integração de sistemas via APIs",
-    "Processamento e organização de grandes volumes de dados"
-  ],
-  atualmente: "Trabalhando com dados e backend em problemas reais",
-  portfolio: "https://www.joaoleao.fun/"
-};
-```
+Fora do expediente, fico mexendo com **geoprocessamento e roteirização**. Mapa, grafo, rota — pra mim isso é diversão. PostGIS aberto num monitor e QGIS no outro é cenário comum por aqui.
+
+Não sou de caçar a stack da moda: prefiro entender bem o problema, escolher a ferramenta certa e deixar funcionando de verdade.
+
+### o que tô usando bastante
+
+`Python` · `TypeScript` · `Node.js` · `PostgreSQL` · `PostGIS` · `Angular` · `Docker`
+
+![Python](https://img.shields.io/badge/Python-E0A458?style=flat-square&logo=python&logoColor=1a1a1a)
+![TypeScript](https://img.shields.io/badge/TypeScript-E0A458?style=flat-square&logo=typescript&logoColor=1a1a1a)
+![Node.js](https://img.shields.io/badge/Node.js-E0A458?style=flat-square&logo=node.js&logoColor=1a1a1a)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-E0A458?style=flat-square&logo=postgresql&logoColor=1a1a1a)
+![PostGIS](https://img.shields.io/badge/PostGIS-E0A458?style=flat-square&logo=qgis&logoColor=1a1a1a)
+![Angular](https://img.shields.io/badge/Angular-E0A458?style=flat-square&logo=angular&logoColor=1a1a1a)
+![Docker](https://img.shields.io/badge/Docker-E0A458?style=flat-square&logo=docker&logoColor=1a1a1a)
 
 ---
 
-## 📊 Estatísticas Completas do GitHub
+### umas coisas que eu fiz
+
+**[🗺️ ETL GeoSaúde Itajubá](https://github.com/joaoleaogf/etl-geosaude-itajuba)** — pipeline em TypeScript que limpa, geocodifica e joga dados de saúde no PostGIS pra virar mapa no QGIS. Geocodificação com fallback entre APIs e retomada por checkpoint.
+
+**[🚗 FIPE ETL](https://github.com/joaoleaogf/fipe-etl)** — coleta e transformação da Tabela FIPE em Node.js + TypeScript, rodando em Docker, com reprocessamento quando a fonte muda.
+
+**[🦠 Análise da Febre Amarela](https://github.com/joaoleaogf/analise-descritiva-febre-amarela)** — dashboard em Angular pra explorar casos e vacinação: gráficos por região, faixa etária e mapa de calor.
+
+**[🧭 Otimização de Rotas](https://github.com/joaoleaogf/otimizacao-rotas-recadastramento-imobiliario)** — teoria dos grafos (carteiro chinês / caminho euleriano) pra reduzir o caminho de equipes de recadastramento imobiliário.
+
+> O resto tá no [portfólio](https://www.joaoleao.fun/) e aqui nos repos. 👇
+
+---
 
 <div align="center">
 
-![GitHub Metrics](https://raw.githubusercontent.com/joaoleaogf/joaoleaogf/main/github-metrics.svg)
+![Stats do GitHub](https://raw.githubusercontent.com/joaoleaogf/joaoleaogf/main/github-metrics.svg)
 
 </div>
 
 ---
 
-## 🛠️ Arsenal Tecnológico
-
-<table align="center">
-<tr>
-<td align="center" width="25%">
-
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-
-</td>
-<td align="center" width="25%">
-
-### Frontend
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-</td>
-<td align="center" width="25%">
-
-### Dados & Geo
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-
-</td>
-<td align="center" width="25%">
-
-### DevOps
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-</td>
-</tr>
-</table>
-
----
-
-## 🚀 Projetos em Destaque
-
-<details open>
-<summary><b>🔵 ETL & Dados Geoespaciais</b></summary>
-<br>
-
-### 🩺 [ETL GeoSaúde Itajubá](https://github.com/joaoleaogf/etl-geosaude-itajuba)
-> Pipeline ETL para processamento de dados de saúde com componente geoespacial
-
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![PostGIS](https://img.shields.io/badge/-PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white)
-
-**Destaques:**
-- ✅ Estruturação de pipeline de ingestão e transformação de dados
-- ✅ Geocodificação e normalização de dados
-- ✅ Integração com banco PostGIS
-
----
-
-### 🚗 [FIPE ETL](https://github.com/joaoleaogf/fipe-etl)
-> Pipeline para processamento e organização da Tabela FIPE
-
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-
-**Destaques:**
-- ✅ Fluxo ETL com processamento incremental
-- ✅ Estruturação de dados para consultas eficientes
-- ✅ Dockerização da aplicação
-
----
-
-### 🦠 [Análise Descritiva – Febre Amarela](https://github.com/joaoleaogf/analise-descritiva-febre-amarela)
-> Análise de dados epidemiológicos com foco espacial
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-
-**Destaques:**
-- ✅ Tratamento e análise de dados com Python
-- ✅ Identificação de padrões espaciais
-- ✅ Visualização de dados
-
-</details>
-
-<details>
-<summary><b>🧠 Algoritmos & Otimização</b></summary>
-<br>
-
-### 🏠 [Otimização de Rotas - Recadastramento Imobiliário](https://github.com/joaoleaogf/otimizacao-rotas-recadastramento-imobiliario)
-> Projeto de otimização usando grafos para apoiar roteirização
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![NetworkX](https://img.shields.io/badge/-NetworkX-FFD43B?style=flat-square&logo=python&logoColor=blue)
-
-**Destaques:**
-- ✅ Implementação de algoritmos de roteirização
-- ✅ Redução de deslocamentos em cenários simulados
-- ✅ Visualização das rotas
-
-</details>
-
-<details>
-<summary><b>🖥️ Aplicações Web Full Stack</b></summary>
-<br>
-
-### 📊 [Relatórios Ad-Hoc](https://github.com/joaoleaogf/relatorios-ad-hoc)
-> Sistema modular para criação e visualização de relatórios customizados
-
-![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-**Destaques:**
-- ✅ Arquitetura componentizada
-- ✅ Interface intuitiva e responsiva
-- ✅ Exportação em múltiplos formatos
-
----
-
-### ♻️ [Sistema de Coleta Seletiva](https://github.com/joaoleaogf/Coleta-seletiva)
-> Plataforma para gestão de coleta seletiva urbana
-
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
-**Destaques:**
-- ✅ Gerenciamento de rotas de coleta
-- ✅ API REST
-- ✅ Interface com Vue.js
-
-</details>
-
-<details>
-<summary><b>🛠️ Arquitetura & Estudos</b></summary>
-<br>
-
-### 🌊 [Node.js Streams](https://github.com/joaoleaogf/NodeJs-Streams)
-> Estudo de streams para processamento eficiente de grandes volumes
-
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
----
-
-### 🧱 [MVC – Psycopg2 vs SQLAlchemy](https://github.com/joaoleaogf/MVC-psycopg2-vs-SqlAlchemy)
-> Comparativo de abordagens de acesso a dados em Python com arquitetura MVC
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-
-</details>
-
----
-
-## 💡 Áreas de Atuação
-
-- **ETL & Pipelines:** Node.js, Python, processamento de dados
-- **Dados Geoespaciais:** PostGIS, QGIS, análise espacial
-- **Backend:** APIs REST, integração de sistemas, arquitetura
-- **Frontend:** Angular, Vue.js, interfaces web
-
----
-
 <div align="center">
 
-### 💬 Transformando dados em aplicações e soluções para problemas reais.
+**bora trocar uma ideia sobre dados, backend ou mapas?**
 
----
-
-### 📫 Vamos conectar?
-
-[![Portfolio](https://img.shields.io/badge/-Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.joaoleao.fun/)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-le%C3%A3o-630a94170/)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaoleaogf@gmail.com)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joaoleaogf)
-
----
-
-![](https://komarev.com/ghpvc/?username=joaoleaogf&color=blue&style=flat-square&label=Visitantes+do+Perfil)
-
-*⭐ Se algum projeto te interessar, deixe uma estrela!*
+me manda um [email](mailto:joaoleao.gf@gmail.com) ou chama no [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-le%C3%A3o-630a94170/) que eu respondo.
 
 </div>
