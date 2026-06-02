@@ -62,7 +62,9 @@ result set (4 rows):
 
 <div align="center">
 
-![herói pixel evoluindo do LVL 1 ao LVL 7: começa fraco e ganha adaga, escudo, elmo, espada, capa, coroa e aura a cada nível](https://raw.githubusercontent.com/joaoleaogf/joaoleaogf/main/rpg.svg)
+![herói pixel evoluindo por 8 níveis: começa no vilarejo e vira lendário, ganhando aura e XP a cada nível](https://raw.githubusercontent.com/joaoleaogf/joaoleaogf/main/rpg.svg)
+
+<sub>sprites por <a href="https://kenney.nl/assets/tiny-dungeon">Kenney</a> · CC0</sub>
 
 </div>
 
