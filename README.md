@@ -58,11 +58,11 @@ result set (4 rows):
 
 > o resto do dataset tá no [portfólio](https://www.joaoleao.fun/) e aqui nos repos 👇
 
-### e todo dev evolui um commit de cada vez
+### todo dev é um RPG: começa fraco e vai upando
 
 <div align="center">
 
-![dino correndo, pulando cactos e evoluindo de cinza para âmbar a cada obstáculo](https://raw.githubusercontent.com/joaoleaogf/joaoleaogf/main/dino.svg)
+![herói pixel evoluindo do LVL 1 ao LVL 7: começa fraco e ganha adaga, escudo, elmo, espada, capa, coroa e aura a cada nível](https://raw.githubusercontent.com/joaoleaogf/joaoleaogf/main/rpg.svg)
 
 </div>
 
