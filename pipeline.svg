@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="220" viewBox="0 0 840 220" role="img" aria-label="Animação: chunks de dado correndo por um pipeline ETL Extract, Transform e Load">
+  <defs>
+    <style>text{font-family:ui-monospace,'SFMono-Regular',Menlo,'Courier New',monospace;}</style>
+  </defs>
+
+  <!-- card -->
+  <rect x="2" y="2" width="836" height="216" rx="16" fill="#0f0f11" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="28" y="38" fill="#8a857b" font-size="14" letter-spacing="2">pipeline :: joão leão</text>
+
+  <!-- track -->
+  <line x1="120" y1="130" x2="720" y2="130" stroke="#ffffff" stroke-opacity="0.12" stroke-width="3"/>
+
+  <!-- EXTRACT -->
+  <circle cx="140" cy="130" r="15" fill="none" stroke="#E0A458" stroke-opacity="0.55" stroke-width="2.5"/>
+  <circle cx="140" cy="130" r="6" fill="#ecb978"/>
+  <text x="140" y="176" fill="#ECE9E2" font-size="13" text-anchor="middle" letter-spacing="1">EXTRACT</text>
+  <text x="140" y="196" fill="#6b655b" font-size="10.5" text-anchor="middle">café + ideia</text>
+
+  <!-- TRANSFORM (engrenagem girando) -->
+  <g transform="translate(420,130)">
+    <circle r="20" fill="none" stroke="#E0A458" stroke-width="2.5"/>
+    <g stroke="#E0A458" stroke-width="2.5" stroke-linecap="round">
+      <line x1="0" y1="-27" x2="0" y2="-20"/>
+      <line x1="0" y1="20" x2="0" y2="27"/>
+      <line x1="-27" y1="0" x2="-20" y2="0"/>
+      <line x1="20" y1="0" x2="27" y2="0"/>
+      <line x1="-19" y1="-19" x2="-14" y2="-14"/>
+      <line x1="14" y1="14" x2="19" y2="19"/>
+      <line x1="-19" y1="19" x2="-14" y2="14"/>
+      <line x1="14" y1="-14" x2="19" y2="-19"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <circle r="6" fill="#ecb978"/>
+  </g>
+  <text x="420" y="176" fill="#ECE9E2" font-size="13" text-anchor="middle" letter-spacing="1">TRANSFORM</text>
+  <text x="420" y="196" fill="#6b655b" font-size="10.5" text-anchor="middle">backend · ETL · mapas</text>
+
+  <!-- LOAD (banco) -->
+  <g>
+    <ellipse cx="700" cy="113" rx="28" ry="8" fill="#222226" stroke="#E0A458" stroke-opacity="0.7" stroke-width="2"/>
+    <path d="M 672 113 L 672 147 A 28 8 0 0 0 728 147 L 728 113" fill="#1c1c1f" stroke="#E0A458" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M 672 130 A 28 8 0 0 0 728 130" fill="none" stroke="#E0A458" stroke-opacity="0.3" stroke-width="1.5"/>
+  </g>
+  <text x="700" y="190" fill="#ECE9E2" font-size="13" text-anchor="middle" letter-spacing="1">LOAD</text>
+
+  <!-- chunks correndo pelo pipeline -->
+  <g>
+    <rect x="-6" y="124" width="12" height="12" rx="3">
+      <animateTransform attributeName="transform" type="translate" from="155 0" to="675 0" dur="4.2s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#6b655b;#6b655b;#E0A458;#E0A458" keyTimes="0;0.46;0.56;1" dur="4.2s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.07;0.9;0.96;1" dur="4.2s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-6" y="124" width="12" height="12" rx="3">
+      <animateTransform attributeName="transform" type="translate" from="155 0" to="675 0" dur="4.2s" begin="0.7s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#6b655b;#6b655b;#E0A458;#E0A458" keyTimes="0;0.46;0.56;1" dur="4.2s" begin="0.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.07;0.9;0.96;1" dur="4.2s" begin="0.7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-6" y="124" width="12" height="12" rx="3">
+      <animateTransform attributeName="transform" type="translate" from="155 0" to="675 0" dur="4.2s" begin="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#6b655b;#6b655b;#E0A458;#E0A458" keyTimes="0;0.46;0.56;1" dur="4.2s" begin="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.07;0.9;0.96;1" dur="4.2s" begin="1.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-6" y="124" width="12" height="12" rx="3">
+      <animateTransform attributeName="transform" type="translate" from="155 0" to="675 0" dur="4.2s" begin="2.1s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#6b655b;#6b655b;#E0A458;#E0A458" keyTimes="0;0.46;0.56;1" dur="4.2s" begin="2.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.07;0.9;0.96;1" dur="4.2s" begin="2.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-6" y="124" width="12" height="12" rx="3">
+      <animateTransform attributeName="transform" type="translate" from="155 0" to="675 0" dur="4.2s" begin="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#6b655b;#6b655b;#E0A458;#E0A458" keyTimes="0;0.46;0.56;1" dur="4.2s" begin="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.07;0.9;0.96;1" dur="4.2s" begin="2.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-6" y="124" width="12" height="12" rx="3">
+      <animateTransform attributeName="transform" type="translate" from="155 0" to="675 0" dur="4.2s" begin="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#6b655b;#6b655b;#E0A458;#E0A458" keyTimes="0;0.46;0.56;1" dur="4.2s" begin="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.07;0.9;0.96;1" dur="4.2s" begin="3.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

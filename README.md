@@ -1,28 +1,38 @@
 <div align="center">
 
-# oi, eu sou o João 👋
+# joão leão
 
-**Backend · pipelines de dados · mapas**
+**dado entra bagunçado. sai como sistema de pé em produção.**
 
-*Gosto mesmo é da parte chata: deixar o dado limpo, a query rápida e o sistema de pé em produção.*
-
-[![Portfólio](https://img.shields.io/badge/portfólio-joaoleao.fun-E0A458?style=flat-square&logo=safari&logoColor=1a1a1a)](https://www.joaoleao.fun/)
-[![LinkedIn](https://img.shields.io/badge/linkedin-João_Leão-E0A458?style=flat-square&logo=linkedin&logoColor=1a1a1a)](https://www.linkedin.com/in/jo%C3%A3o-le%C3%A3o-630a94170/)
-[![Email](https://img.shields.io/badge/email-joaoleao.gf@gmail.com-E0A458?style=flat-square&logo=maildotru&logoColor=1a1a1a)](mailto:joaoleao.gf@gmail.com)
+[![portfólio](https://img.shields.io/badge/portfólio-joaoleao.fun-E0A458?style=flat-square&logo=safari&logoColor=1a1a1a)](https://www.joaoleao.fun/)
+[![linkedin](https://img.shields.io/badge/linkedin-João_Leão-E0A458?style=flat-square&logo=linkedin&logoColor=1a1a1a)](https://www.linkedin.com/in/jo%C3%A3o-le%C3%A3o-630a94170/)
+[![email](https://img.shields.io/badge/email-joaoleao.gf@gmail.com-E0A458?style=flat-square&logo=maildotru&logoColor=1a1a1a)](mailto:joaoleao.gf@gmail.com)
 
 </div>
 
----
+<div align="center">
 
-Dev em **Itajubá-MG**. De dia, trabalho na **DDMX** com ETL, APIs REST e dashboards de BI (Elasticsearch + Highcharts) — basicamente pegar dado bagunçado de muitos lugares e fazer virar algo que dá pra confiar e abrir rápido.
+![pipeline ETL: café e ideia entram no EXTRACT, viram backend/ETL/mapas no TRANSFORM e saem como sistema em produção no LOAD](https://raw.githubusercontent.com/joaoleaogf/joaoleaogf/main/pipeline.svg)
 
-Fora do expediente, fico mexendo com **geoprocessamento e roteirização**. Mapa, grafo, rota — pra mim isso é diversão. PostGIS aberto num monitor e QGIS no outro é cenário comum por aqui.
+</div>
 
-Não sou de caçar a stack da moda: prefiro entender bem o problema, escolher a ferramenta certa e deixar funcionando de verdade.
+> café + curiosidade → backend · ETL · mapas → sistema de pé em produção
+> *(e um tanto de geoprocessamento por diversão)*
 
-### o que tô usando bastante
+### quem é esse registro?
 
-`Python` · `TypeScript` · `Node.js` · `PostgreSQL` · `PostGIS` · `Angular` · `Docker`
+```sql
+SELECT  foco, stack, vibe
+FROM    devs
+WHERE   nome          = 'João Leão'
+  AND   local         = 'Itajubá-MG'
+  AND   trabalha_na   = 'DDMX'        -- ETL · BI (Elasticsearch + Highcharts)
+  AND   curte         IN ('mapas', 'grafos', 'rotas')
+  AND   stack_da_moda = false;        -- prefiro entender o problema
+                                      -- e escolher a ferramenta certa
+```
+
+### stack no SELECT
 
 ![Python](https://img.shields.io/badge/Python-E0A458?style=flat-square&logo=python&logoColor=1a1a1a)
 ![TypeScript](https://img.shields.io/badge/TypeScript-E0A458?style=flat-square&logo=typescript&logoColor=1a1a1a)
@@ -32,25 +42,25 @@ Não sou de caçar a stack da moda: prefiro entender bem o problema, escolher a 
 ![Angular](https://img.shields.io/badge/Angular-E0A458?style=flat-square&logo=angular&logoColor=1a1a1a)
 ![Docker](https://img.shields.io/badge/Docker-E0A458?style=flat-square&logo=docker&logoColor=1a1a1a)
 
----
+### LOAD → projetos que valeram a pena
 
-### umas coisas que eu fiz
+```text
+result set (4 rows):
+```
 
-**[🗺️ ETL GeoSaúde Itajubá](https://github.com/joaoleaogf/etl-geosaude-itajuba)** — pipeline em TypeScript que limpa, geocodifica e joga dados de saúde no PostGIS pra virar mapa no QGIS. Geocodificação com fallback entre APIs e retomada por checkpoint.
+🗺️ **[ETL GeoSaúde Itajubá](https://github.com/joaoleaogf/etl-geosaude-itajuba)** — limpa, geocodifica e joga dados de saúde no PostGIS pra virar mapa no QGIS. Fallback entre APIs de geocoding e retomada por checkpoint. · `TypeScript` `PostGIS`
 
-**[🚗 FIPE ETL](https://github.com/joaoleaogf/fipe-etl)** — coleta e transformação da Tabela FIPE em Node.js + TypeScript, rodando em Docker, com reprocessamento quando a fonte muda.
+🚗 **[FIPE ETL](https://github.com/joaoleaogf/fipe-etl)** — coleta e transformação da Tabela FIPE em Node.js + TypeScript, rodando em Docker, com reprocessamento quando a fonte muda. · `TypeScript` `Docker`
 
-**[🦠 Análise da Febre Amarela](https://github.com/joaoleaogf/analise-descritiva-febre-amarela)** — dashboard em Angular pra explorar casos e vacinação: gráficos por região, faixa etária e mapa de calor.
+🦠 **[Análise da Febre Amarela](https://github.com/joaoleaogf/analise-descritiva-febre-amarela)** — dashboard em Angular pra explorar casos e vacinação: gráficos por região, faixa etária e mapa de calor. · `Angular` `Highcharts`
 
-**[🧭 Otimização de Rotas](https://github.com/joaoleaogf/otimizacao-rotas-recadastramento-imobiliario)** — teoria dos grafos (carteiro chinês / caminho euleriano) pra reduzir o caminho de equipes de recadastramento imobiliário.
+🧭 **[Otimização de Rotas](https://github.com/joaoleaogf/otimizacao-rotas-recadastramento-imobiliario)** — carteiro chinês / caminho euleriano pra encurtar o trajeto de equipes de recadastramento. · `Python` `Grafos`
 
-> O resto tá no [portfólio](https://www.joaoleao.fun/) e aqui nos repos. 👇
-
----
+> o resto do dataset tá no [portfólio](https://www.joaoleao.fun/) e aqui nos repos 👇
 
 <div align="center">
 
-![Stats do GitHub](https://raw.githubusercontent.com/joaoleaogf/joaoleaogf/main/github-metrics.svg)
+![stats do github](https://raw.githubusercontent.com/joaoleaogf/joaoleaogf/main/github-metrics.svg)
 
 </div>
 
@@ -60,6 +70,6 @@ Não sou de caçar a stack da moda: prefiro entender bem o problema, escolher a 
 
 **bora trocar uma ideia sobre dados, backend ou mapas?**
 
-me manda um [email](mailto:joaoleao.gf@gmail.com) ou chama no [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-le%C3%A3o-630a94170/) que eu respondo.
+`COMMIT;` — me chama no [email](mailto:joaoleao.gf@gmail.com) ou no [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-le%C3%A3o-630a94170/) que eu respondo.
 
 </div>
